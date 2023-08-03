@@ -20,16 +20,16 @@ int main()
 {
     int n;
     printf("Enter value:");
-    scanf("%d",&n);
+    scanf("  %d",&n);
     if(n%2==1){
-        printf("series:");
+        printf("Series:");
         for (int i=1; i<=n; i+=2){
             printf(" %d",i);
         }
     } else{
-        printf("series:");
+        printf("Series:");
          for (int i=n; i>=0; i-=2){
-            printf(" %d", i);
+            printf(" %d",i);
         }
     }
     printf("\n");
